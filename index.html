@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Cities of Europe </title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title"> Major Capitals of Europe </h1>
+
+    <div id="flex-container">
+        <div class="container_all">
+            <div class="container">
+                <img src="img/paris.jpg" class="image">
+                <div class="overlay">
+                    <div class="text">Paris is the capital of France</div>
+                </div>
+            </div>
+            <p class="cityName">Paris</p>
+        </div>
+
+        <div class="container_all">
+            <div class="container">
+                <img src="img/athenes.jpg" class="image">
+                <div class="overlay">
+                    <div class="text">Athens is the capital of Greece</div>
+                </div>
+            </div>
+            <p class="cityName">Athens</p>
+        </div>
+
+        <div class="container_all">
+            <div class="container">
+                <img src="img/oslo.jpg" class="image">
+                <div class="overlay">
+                    <div class="text">Oslo is the capital of Norway</div>
+                </div>
+            </div>
+            <p class="cityName">Oslo</p>
+        </div>
+
+        <div class="container_all">
+            <div class="container">
+                <img src="img/londre.jpg" class="image">
+                <div class="overlay">
+                    <div class="text">London is the capital of UK</div>
+                </div>
+            </div>
+            <p class="cityName">London</p>
+        </div>
+    </div>
+
+    <form name="form" id="forms">
+        <label class="formText" for="cityNameForm">Capital Name:</label><br>
+        <input type="text" id="cityNameForm" name="cityNameForm" required><br><br>
+        
+        <label class="formText" for="descriptionForm">Description:</label><br>
+        <input type="text" id="descriptionForm" name="descriptionForm" required><br><br>
+        
+        <label class="formText" for="img">Select a picture:</label><br>
+        <input type="file" id="img" name="img" required><br><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

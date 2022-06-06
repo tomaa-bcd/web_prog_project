@@ -1,0 +1,76 @@
+body {
+    background: #F5F5DC;
+}
+
+#title {
+    text-align: center;
+    font-family: Monaco, monospace;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    position: relative;
+    width: 20%;
+}
+
+.image {
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+}
+
+.text {
+    color: white;
+    font-family: Monaco, monospace;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.cityName {
+    font-family: Monaco, monospace;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+
+#addCity {
+    background-color: #008CBA;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.formText{
+    font-family: Monaco, monospace;
+}
